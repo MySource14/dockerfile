@@ -6,15 +6,15 @@
     "settings": {
       "clients": [
         {
-          "id": "63971ed9-f6ed-4540-b9f0-2254b180cc76",
+          "id": "591e78c7-27f9-4023-acbf-02cea6c87edd",
           "level": 1,
-          "alterId": 60
+          "alterId": 4
 		}
       ]
     },
 	"streamSettings": {
         "network": "kcp",
-        "security": null,
+        "security": auto,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": {
@@ -26,7 +26,7 @@
           "readBufferSize": 2,
           "writeBufferSize": 2,
           "header": {
-            "type": "none",
+            "type": "wireguard",
             "request": null,
             "response": null
           }
@@ -43,10 +43,10 @@
       "decryption":"none",
       "clients": [
         {
-          "id": "63971ed9-f6ed-4540-b9f0-2254b180cc76",
+          "id": "591e78c7-27f9-4023-acbf-02cea6c87edd",
           "flow": "",
           "level": 0,
-          "email": "Ilove@v2fly.org"
+          "email": "iwant@linux.org"
 		}
       ],
       "fallbacks": [
@@ -57,7 +57,7 @@
     },
 	"streamSettings": {
         "network": "kcp",
-        "security": null,
+        "security": auto,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": {
@@ -69,7 +69,7 @@
           "readBufferSize": 2,
           "writeBufferSize": 2,
           "header": {
-            "type": "none",
+            "type": "wireguard",
             "request": null,
             "response": null
           }
